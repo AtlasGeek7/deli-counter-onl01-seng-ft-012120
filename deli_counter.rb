@@ -23,7 +23,7 @@ def line(katzDeliLine)
   #for (let i=0; i<len-1; i++)
     str += "#{i+1}. #{katzDeliLine[i]}"
   end
-  return str + "#{len}. #{katzDeliLine[len-1]}"
+  puts str + "#{len}. #{katzDeliLine[len-1]}"
   else
     puts "The line is currently empty."
   end
