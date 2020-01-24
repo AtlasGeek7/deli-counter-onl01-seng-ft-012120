@@ -16,15 +16,7 @@ def now_serving(katzDeliLine)
 end
 
 def line(katzDeliLine)
-  len = katzDeliLine.length-1
-  if (len > 0)
-    str = "The line is currently: "
-    for i in 0..len do
-  #for (let i=0; i<len-1; i++)
-    str += "#{i+1}. #{katzDeliLine[i]}"
-  end
-  puts str + "#{len}. #{katzDeliLine[len-1]}"
-  else
-    puts "The line is currently empty."
-  end
+  
+  katzDeliLine.each_with_index { |n,i| puts "The line is currently: #{i+1}. #{n}" }
+  
 end
