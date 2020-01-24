@@ -1,5 +1,6 @@
 def take_a_number(katzDeliLine,newPerson)
   katzDeliLine.push(newPerson)
+  len = katzDeliLine.length
   puts "Welcome, #{katzDeliLine.last}. You are number #{len} in line."
 end
 
