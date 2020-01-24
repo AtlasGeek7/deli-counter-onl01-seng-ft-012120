@@ -4,7 +4,7 @@ def take_a_number(katzDeliLine,newPerson)
   puts "Welcome, #{katzDeliLine.last}. You are number #{len} in line."
 end
 
-def nowServing(katzDeliLine)
+def now_serving(katzDeliLine)
   len = katzDeliLine.length
   if (len > 0) 
     let firstPersonInLine = katzDeliLine[0]
