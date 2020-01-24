@@ -25,6 +25,6 @@ def line(katzDeliLine)
   end
   return str + "#{len}. #{katzDeliLine[len-1]}"
   else
-    return "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
