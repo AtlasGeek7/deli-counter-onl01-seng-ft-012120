@@ -15,7 +15,7 @@ def now_serving(katzDeliLine)
   end
 end
 
-def currentLine(katzDeliLine)
+def line(katzDeliLine)
   len = katzDeliLine.length-1
   if (len > 0)
     str = "The line is currently: "
