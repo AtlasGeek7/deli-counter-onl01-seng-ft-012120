@@ -19,7 +19,7 @@ def line(katzDeliLine)
   len = katzDeliLine.length
   if (len > 0)
     print "The line is currently: "
-    katzDeliLine.each_with_index { |n,i| puts "#{i+1}. #{n}" }
+    katzDeliLine.each_with_index { |n,i| print "#{i+1}. #{n}" }
   else
     puts "The line is currently empty."
   end
