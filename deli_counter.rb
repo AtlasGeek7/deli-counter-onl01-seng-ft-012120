@@ -7,7 +7,7 @@ end
 def now_serving(katzDeliLine)
   len = katzDeliLine.length
   if (len > 0) 
-    let firstPersonInLine = katzDeliLine[0]
+    firstPersonInLine = katzDeliLine[0]
     katzDeliLine.shift()
     return "Currently serving #{firstPersonInLine}."
   else
